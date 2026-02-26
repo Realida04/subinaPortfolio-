@@ -8,8 +8,8 @@ const NavBar = () => {
       <div className='space-x-12  text-xl hover:text-[#ffffff] transition-colors duration-300 '>
         <Link to="/" target="_self" className='hover:border-b-2 border-white'>Home</Link>
          <Link to="/about" target="_self" className='hover:border-b-2 border-white'>About</Link>
+          <Link to="/skills" target="_self" className='hover:border-b-2 border-white'>Skills</Link>
          <Link to="/experience" target="_self" className='hover:border-b-2 border-white'>Experience</Link>
-         <Link to="/education" target="_self" className='hover:border-b-2 border-white'>Education</Link>
           <Link to="/contact" target="_self" className='hover:border-b-2 border-white'>Contact</Link>
       </div>
 
