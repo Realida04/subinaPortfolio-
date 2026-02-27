@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Realida04/subina.git",
+  "homepage": "https://realida04.github.io/subina/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
