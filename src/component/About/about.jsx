@@ -6,7 +6,7 @@ const About = () => {
   <div className="max-w-6xl mx-auto">
 
     {/* Title */}
-    <h3 className="text-4xl font-bold text-center text-[#5a855f] mb-16">
+    <h3 className="text-4xl md:text-5xl font-bold text-center text-[#5a855f] mb-16">
      About Me
     </h3>
 

@@ -6,7 +6,7 @@ const [formData, setFormData] =useState({
     email:" ",
     sendMessage:""
 })
-    const handleClick =(e)=>{
+    const handleClick =async (e)=>{
        console.log(" the button has been clicked!")
        e.preventDefault();  
        if(formData.fullname == " " || formData.email == " "){
@@ -16,6 +16,18 @@ const [formData, setFormData] =useState({
        }
        console.log(" form has been Submitted", formData)
        alert("form has been submitted")
+
+       await fetch("http://localhost:5000/send-email", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      name: formData.fullname,
+      email: formData.email,
+      sendMessage: formData.sendMessage
+    })
+  });
     }
 
     const handleChange =(e)=>{

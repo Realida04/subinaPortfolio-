@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <div className="min-h-screen w-full bg-gray-100 py-16 px-6" id="experience">
   <div className="max-w-5xl mx-auto space-y-16">
-<span className="text-4xl md:text-5xl font-bold text-[#5a855f] mb-20">Work Experience and Education</span>
+<span className="text-4xl md:text-5xl font-bold text-[#5a855f] mb-20">Work Experience & Education</span>
   
     <div>
       
